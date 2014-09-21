@@ -17,6 +17,7 @@ Use `write.table(sensorAvgByActivityBySubject, file = "sensorAvgByActivityBySubj
  [2] "activity", explicit : WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING        
  
  Normalized  and bounded within [-1,1] :
+ 
  [3] "Time_Domain.BodyAcceleration.Mean.X"                                      
  [4] "Time_Domain.BodyAcceleration.Mean.Y"                                      
  [5] "Time_Domain.BodyAcceleration.Mean.Z"                                      
