@@ -17,3 +17,4 @@ Tidy dataset
 ------------
 
 The resulting tidy dataset contains one row for each subject / activity pair and columns for subject, activity, and each feature that is issued from a mean or standard deviation calculation from the original dataset.
+The CodeBook describes the variables contained in this dataset.
