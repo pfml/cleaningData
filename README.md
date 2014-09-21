@@ -13,4 +13,6 @@ The processing steps are as follows :
  4. Appropriately labels the data set with descriptive names.
  5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-    
+=Tidy dataset=
+
+The resulting tidy dataset contains one row for each subject / activity pair and columns for subject, activity, and each feature that is issued from a mean or standard deviation calculation from the original dataset.
