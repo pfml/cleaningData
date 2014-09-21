@@ -11,6 +11,8 @@ the zipped dataset file.
 
 ## Data sets after applying run_analysis script
 
+The resulting tidy dataset contains one row for each subject / activity pair and columns for subject, activity, and each feature that is issued from a mean or standard deviation calculation from the original dataset.
+
 Use `write.table(sensorAvgByActivityBySubject, file = "sensorAvgByActivityBySubject.txt")` in line 75 of the script (delete or comment `row.name=FALSE` to obtain the dataset with explicit row names.
 
  [1] "subject", numbered form 1 to 30                                                                  
