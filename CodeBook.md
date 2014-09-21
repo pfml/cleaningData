@@ -12,3 +12,6 @@ the zipped dataset file.
 ## Data sets after applying run_analysis script
 
 
+
+Use `write.table(sensorAvgByActivityBySubject, file = "sensorAvgByActivityBySubject.txt")` in line 75 of the script (delete or comment `row.name=FALSE` to obtain the dataset with explicit row names.
+
